@@ -1,0 +1,78 @@
+# Loose files #
+###############
+local.properties
+
+# Compiled binaries #
+#####################
+*.class
+*.dex
+*.apk
+*.ap_
+*.bin
+
+#Ignore everything but the gitignore file in this folder
+#Don't forget to add the .gitignore to the subfolders you want to keep
+*/bin/*
+*/gen/*
+**/bin/*
+**/gen/*
+!.gitignore
+
+# Metadata #
+############
+.metadata
+
+# Eclipse project files #
+#########################
+.classpath
+.project
+
+# Android Studio captures folder
+captures/
+
+# Gradle #
+##########
+.gradle
+!gradle.build
+.tasks.cache.json
+
+build/
+# intelliJ project files #
+##########################
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/*.xml
+.idea/*
+.idea/runConfigurations/*
+*/out/*
+*/build/*
+*/*/build
+*.swp
+*.iml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Mockbox #
+###########
+**/mockbox/*.conf
+**/mockbox/tmp/**
+*.sublime*
+
+out.map
+*.log
+
+fastlane/.idea
+# Reason - backup files due to new Android versions #
+projectFilesBackup/*
+
+# Scripts/node
+scripts/node_modules/*
