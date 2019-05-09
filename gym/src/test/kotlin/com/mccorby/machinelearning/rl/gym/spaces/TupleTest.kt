@@ -1,7 +1,5 @@
 package com.mccorby.machinelearning.rl.gym.spaces
 
-import com.mccorby.machinelearning.rl.gym.spaces.Discrete
-import com.mccorby.machinelearning.rl.gym.spaces.Tuple
 import org.junit.Test
 
 class TupleTest {

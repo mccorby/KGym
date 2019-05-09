@@ -1,7 +1,5 @@
 package com.mccorby.machinelearning.rl.gym.spaces
 
-import com.mccorby.machinelearning.rl.gym.spaces.Space
-
 /**
     A tuple (i.e., product) of simpler spaces
 

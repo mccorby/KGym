@@ -1,2 +1,4 @@
-rootProject.name = 'rl.gym'
+rootProject.name = 'rl'
+include 'examples'
+include 'gym'
 
