@@ -9,6 +9,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation project(':gym')
 
+    implementation group: "com.kyonifer", name:"koma-core-ejml", version: "0.12"
+    implementation group: "com.kyonifer", name:"koma-plotting", version: "0.12"
+
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation "io.mockk:mockk:1.9.3"
 }

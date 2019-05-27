@@ -11,7 +11,7 @@ import org.junit.Test
 
 class BlackjackResolutionTest {
     @Test
-    fun `Given two ocurrences of a state visit when resolving it adds up the rewards`() {
+    fun `Given two occurrences of a state visit when resolving it adds up the rewards`() {
         val o1 = BlackjackObservation(1, 1, false)
         val o2 = BlackjackObservation(2, 1, false)
 
